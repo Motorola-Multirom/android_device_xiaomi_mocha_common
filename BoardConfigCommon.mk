@@ -56,6 +56,7 @@ BOARD_CACHEIMAGE_FILE_SYSTEM_TYPE := ext4
 BOARD_FLASH_BLOCK_SIZE := 131072 # (BOARD_KERNEL_PAGESIZE * 64)
 
 # Recovery
+TW_THEME := portrait_hdpi
 BOARD_HAS_NO_SELECT_BUTTON := true
 #BOARD_USE_CUSTOM_RECOVERY_FONT := \"roboto_23x41.h\"
 TARGET_RECOVERY_LCD_BACKLIGHT_PATH := \"/sys/class/backlight/pwm-backlight/brightness\"
